@@ -8,7 +8,7 @@ from .models import Post
 class BlogPageView(ListView):
     model = Post
 
-    template_name = 'home.html'
+    template_name = 'index.html'
 
 class BlogDetailView(DetailView):
     model = Post
